@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <tile></tile>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Student GPA Calculation</h1>
+  <table id="studentTable">
+    <tr>
+      <th>Student Name</th>
+      <th>Math</th>
+      <th>Bio</th>
+      <th>Geo</th>
+      <th>Eng</th>
+      <th>Hist</th>
+      <th>Physics</th>
+    </tr>
+    <tr>
+      <td>John </td>
+      <td>64</td>
+      <td>81</td>
+      <td>72</td>
+      <td>89</td>
+      <td>79</td>
+      <td>67</td>
+    </tr>
+
+    <tr>
+        <td> Mary</td>
+        <td>71</td>
+        <td>74</td>
+        <td>76</td>
+        <td>78</td>
+        <td>64</td>
+        <td>81</td>
+    </tr>
+
+
+    <tr>
+        <td>Anne</td>
+        <td>74</td>
+        <td>76</td>
+        <td>72</td>
+        <td>82</td>
+        <td>80</td>
+        <td>73</td>
+    </tr>
+
+    <tr>
+        <td>Mark</td>
+        <td>69</td>
+        <td>64</td>
+        <td>59</td>
+        <td>66</td>
+        <td>86</td>
+        <td>72</td>
+    </tr>
+
+    <tr>
+        <td>Rick</td>
+        <td>82</td>
+        <td>80</td>
+        <td>77</td>
+        <td>84</td>
+        <td>83</td>
+        <td>79</td>
+    </tr>
+
+
+    <tr>
+        <td>Eve</td>
+        <td>88</td>
+        <td>86</td>
+        <td>90</td>
+        <td>77</td>
+        <td>74</td>
+        <td>80</td>
+    </tr>
+  
+  </table>
+
+  <button onclick="calculateHighestGPA()"> High GPA</button>
+  <button onclick="calculateLowestGPA()">Low GPA</button>
+  <button onclick="listSubjectsWithHighestMarks()">Subject with Highest Marks</button>
+  <button onclick="listSubjectsWithLowestMarks()">Subject with Lowest Marks</button>
+  <button onclick="listStudentsWithHighestScoreBySubject()">Students with Highest Score by Subject</button>
+  <button onclick="listStudentsWithLowestScoreBySubject()">Students with Lowest Score by Subject</button>
+  <button onclick="listSubjectsAboveAverage()">Subjects with Scores Above Average</button>
+  <button onclick="listStudentsAboveGPA()">Students with Scores Above GPA</button>
+  <button onclick="listSubjectsAboveAverage()">Subjects with Average Higher than Class Average</button>
+  <button onclick="listStudentsBelowClassAverage()">Students with GPA Lower than Class Average</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
